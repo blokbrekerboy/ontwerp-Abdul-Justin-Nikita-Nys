@@ -58,3 +58,12 @@ nav {
     justify-content: space-around;
     align-items: center;
 }
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    color: black;
+    font-size: 2em;
+}
