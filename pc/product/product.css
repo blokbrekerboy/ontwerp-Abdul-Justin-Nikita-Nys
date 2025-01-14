@@ -136,30 +136,25 @@ a {
 
 .infoSizes {
     display: flex;
-    justify-content: space-between; /* Changed from space-around to space-between */
+    justify-content: space-around;
     align-items: center;
-    width: fit-content;
+    width: 40%;
+    height: 80%;
     flex-direction: column;
     flex-wrap: nowrap;
-}
-
-.price-image-button {
-    display: flex;
-    justify-content: space-between; /* Added to align items horizontally */
-    align-items: center;
-    width: fit-content;
-}
-
-.price-image {
-    display: flex;
-    flex-direction: column; /* Added to stack price above image */
-    align-items: center;
-    margin-right: 1em; /* Added margin to separate elements */
+    
 }
 
 button {
-    width: auto; /* Changed from 100% to auto */
+    width: 100%;
     height: 2em;
     margin: 1.5em;
     padding: 2em;
     border: 1px solid black;
+    font-family: "Bebas Neue", serif;
+    background-color: #72F2EB;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
