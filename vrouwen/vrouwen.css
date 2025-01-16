@@ -106,3 +106,8 @@ header div.logo a {
 header div.logo {
     z-index: 1000;
 }
+
+footer {
+    display: none;
+}
+

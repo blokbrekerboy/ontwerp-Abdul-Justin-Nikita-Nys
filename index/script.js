@@ -21,3 +21,8 @@ function bestel() {
 function anderAdress() {
     window.location.href = "../lever adress/lever-adress.html";
 }
+
+function toggleMenu() {
+    document.querySelector('.hamburger').classList.toggle('active');
+    document.querySelector('nav ul').classList.toggle('active');
+}
