@@ -115,3 +115,21 @@ p {
     text-align: left;
 }
 
+
+header {
+    /* z-index: -1; */
+    position: relative;
+}
+
+.logo {
+    z-index: 100;
+}
+
+
+header div.logo a {
+    pointer-events: initial !important;
+}
+
+header div.logo {
+    z-index: 1000;
+}

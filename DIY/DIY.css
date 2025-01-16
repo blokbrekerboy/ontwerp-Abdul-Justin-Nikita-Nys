@@ -36,6 +36,7 @@ header div.logo {
     pointer-events: none;
 }
 
+
 header .icons {
     width: 25%;
     margin-left: auto;
@@ -108,3 +109,22 @@ img {
 .image {
     margin: 15px;
 }
+
+header {
+    /* z-index: -1; */
+    position: relative;
+}
+
+.logo {
+    z-index: 100;
+}
+
+
+header div.logo a {
+    pointer-events: initial !important;
+}
+
+header div.logo {
+    z-index: 1000;
+}
+
