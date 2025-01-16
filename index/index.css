@@ -79,7 +79,6 @@ a {
     color: black;
 }
 
-
 header {
     /* z-index: -1; */
     position: relative;
@@ -89,7 +88,6 @@ header {
     z-index: 100;
 }
 
-
 header div.logo a {
     pointer-events: initial !important;
 }
@@ -98,7 +96,73 @@ header div.logo {
     z-index: 1000;
 }
 
-
 .account {
     z-index: 100;
+}
+
+
+.homeImage {
+    object-fit: cover;
+    background-image: url("../images/homeImage.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    .account {
+        display: none;
+    }
+
+    .favorite {
+        display: none;
+    }
+
+    .winkelwagen {
+        display: none;
+    }
+
+    .homeImage {
+        display: none;
+    }
+
+    .homeImage2 {
+        display: block;
+        object-fit: contain;
+        background-image: url("../images/homeImage2.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 100;
+        position: relative;
+        width: 100%;
+        height: 65%;
+    }
 }

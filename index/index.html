@@ -16,6 +16,13 @@
 
 <body>
     <header>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div> 
+            <div></div>
+            
+        </div>
+
         <div class="logo">
             <a href="index.html">
                 <svg width="80" height="80" viewBox="0 0 109 110" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -72,6 +79,8 @@
             </div>
         </div>
     </header>
+
+
     <nav>
         <ul>
             <li><a href="../vrouwen/vrouwen.html">Vrouw</a></li>
@@ -82,7 +91,8 @@
         </ul>
     </nav>
 
-    <img src="../images/homeImage.png" alt="">
+    <img src="../images/homeImage.png" alt="" class="homeImage">
+    <div class="homeImage2"></div>
 
     <footer>
         <div class="footerText">
@@ -92,6 +102,13 @@
             </p>
         </div>
     </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('.hamburger').classList.toggle('active');
+            document.querySelector('nav ul').classList.toggle('active');
+        }
+    </script>
 </body>
 
 </html>
