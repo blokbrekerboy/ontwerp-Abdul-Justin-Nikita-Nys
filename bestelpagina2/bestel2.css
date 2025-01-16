@@ -68,10 +68,10 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     margin: 5px;
     width: 20vw;
-    height: 40%;
+    height: 70vh;
     border-right: 2px solid black;
 }
 
@@ -90,7 +90,7 @@ a {
 
 .img2 {
     height: 10vh;
-    width: 20vh;
+    width: 32vh;
     margin: 10%;
 }
 

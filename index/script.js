@@ -13,3 +13,11 @@ function favorite() {
 function winkelwagen() {
     window.location.href = "../bestelpagina/bestel.html";
 }
+
+function bestel() {
+    window.location.href = "../bestelpagina2/bestel2.html";
+}
+
+function anderAdress() {
+    window.location.href = "../lever adress/lever-adress.html";
+}
