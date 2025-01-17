@@ -18,3 +18,7 @@
 footer {
     background-color: white;
 }
+
+.content img:nth-child(n+9) {
+    display: none;
+}
